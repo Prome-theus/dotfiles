@@ -1,0 +1,1089 @@
+[2023-10-13 18:51:40.783] [1178] (engine.cpp:315): Created native Engine, time: Fri Oct 13 18:51:40 2023 IST, logPath: /home/manoj/.config/discord/0.0.31/modules/discord_voice/, logLevel: 2
+[2023-10-13 18:51:41.326] [1178] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-10-13 18:51:41.326] [1178] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-10-13 18:51:41.326] [1178] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-10-13 18:51:41.376] [1178] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:143): current platform is Linux
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-10-13 18:51:41.376] [1178] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:143): current platform is Linux
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-10-13 18:51:41.406] [1178] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-10-13 18:51:41.406] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-10-13 18:51:41.406] [1178] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-10-13 18:51:41.406] [1178] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-10-13 18:51:41.407] [1178] (audio_engine.cpp:528): Creating audio engine: standard
+[2023-10-13 18:51:41.407] [1178] (audio_device_impl.cc:364): Init
+[2023-10-13 18:51:41.413] [1178] (audio_device_impl.cc:364): Init
+[2023-10-13 18:51:41.415] [1178] (audio_coding.cpp:148): Using software Opus decoder
+[2023-10-13 18:51:41.415] [1178] (audio_coding.cpp:165): Using software Opus encoder
+[2023-10-13 18:51:41.415] [1178] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-10-13 18:51:41.415] [1178] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-10-13 18:51:41.415] [1178] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-10-13 18:51:41.415] [1178] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-10-13 18:51:41.415] [1178] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-10-13 18:51:41.415] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:41.415] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:41.415] [1178] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:573): output: 1
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:41.416] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:41.416] [1178] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-10-13 18:51:41.416] [1178] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-10-13 18:51:41.416] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:41.416] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:41.417] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:41.417] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:41.417] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:41.417] [1178] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-10-13 18:51:41.417] [1178] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-10-13 18:51:41.417] [1178] (audio_device_impl.cc:914): output: 0
+[2023-10-13 18:51:41.417] [1178] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-10-13 18:51:41.479] [1178] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-10-13 18:51:41.479] [1178] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-10-13 18:51:41.479] [1178] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-10-13 18:51:41.479] [1178] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-10-13 18:51:41.479] [1178] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-10-13 18:51:41.479] [1178] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-10-13 18:51:41.479] [1178] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-10-13 18:51:41.480] [1178] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-10-13 18:51:41.480] [1178] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-10-13 18:51:41.515] [1178] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-10-13 18:51:41.944] [1134] (discord.cpp:744): JS console: ["%c[DatabaseManager]","active user changed (now: 1127538165759090689, was: null, was: undefined)"]
+[2023-10-13 18:51:42.236] [1178] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-10-13 18:51:42.236] [1178] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-10-13 18:51:42.236] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:42.236] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:42.236] [1178] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-10-13 18:51:42.236] [1178] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-10-13 18:51:42.237] [1178] (audio_device_impl.cc:573): output: 1
+[2023-10-13 18:51:42.238] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:42.238] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:42.238] [1178] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-10-13 18:51:42.238] [1178] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-10-13 18:51:42.238] [1178] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-10-13 18:51:42.238] [1178] (audio_engine.cpp:206): Setting audio output device: 'OnePlus Bullets Wireless Z2'
+[2023-10-13 18:51:42.238] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:42.238] [1178] (audio_device_impl.cc:720): SetPlayoutDevice
+[2023-10-13 18:51:42.238] [1178] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2023-10-13 18:51:42.239] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:42.240] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:42.240] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:42.240] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:42.240] [1178] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-10-13 18:51:42.240] [1178] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-10-13 18:51:42.240] [1178] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-10-13 18:51:42.268] [1134] (discord.cpp:744): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 236850, Version Hash: 4025e119282f8a6a465f5569b1e911a7416a49ec"]
+[2023-10-13 18:51:42.349] [1134] (discord.cpp:744): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-10-13 18:51:42.444] [1134] (discord.cpp:744): JS console: ["%c[default]","[NATIVE INFO] host 0.0.31, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2023-10-13 18:51:42.484] [1178] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-10-13 18:51:42.484] [1178] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-10-13 18:51:42.484] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:42.484] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:42.484] [1178] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-10-13 18:51:42.486] [1178] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-10-13 18:51:42.487] [1178] (audio_device_impl.cc:573): output: 1
+[2023-10-13 18:51:42.487] [1178] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-10-13 18:51:42.487] [1178] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-10-13 18:51:42.487] [1178] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-10-13 18:51:42.487] [1178] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-10-13 18:51:42.487] [1178] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-10-13 18:51:42.487] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:42.487] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:42.487] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:42.488] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:42.488] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:42.488] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:42.488] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:42.606] [1134] (discord.cpp:744): JS console: ["Initializing krisp module"]
+[2023-10-13 18:51:44.092] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-10-13 18:51:44.097] [1134] (discord.cpp:744): JS console: ["[FAST CONNECT] connected in 5593ms"]
+[2023-10-13 18:51:44.387] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-10-13 18:51:44.676] [1134] (discord.cpp:744): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discord.com/assets/269f1522ef537311f6f8.js:3144:330)\n    at Bn (https://discord.com/assets/269f1522ef537311f6f8.js:3170:696)\n    at Wn (https://discord.com/assets/269f1522ef537311f6f8.js:3173:356)\n    at Zn (https://discord.com/assets/269f1522ef537311f6f8.js:3173:199)\n    at Yn (https://discord.com/assets/269f1522ef537311f6f8.js:3172:886)\n    at Kn (https://discord.com/assets/269f1522ef537311f6f8.js:3173:697)\n    at zn (https://discord.com/assets/269f1522ef537311f6f8.js:3173:731)\n    at i (https://discord.com/assets/269f1522ef537311f6f8.js:3140:961)\n    at 408481 (https://discord.com/assets/122a2aaecc8a1c614235.js:21:346)\n    at l (https://discord.com/assets/0a66b67dea1e433d751d.js:1:154)\n    at 558820 (https://discord.com/assets/122a2aaecc8a1c614235.js:14:338)\n    at l (https://discord.com/assets/0a66b67dea1e433d751d.js:1:154)\n    at 308739 (https://discord.com/assets/122a2aaecc8a1c614235.js:2:331)\n    at l (https://discord.com/assets/0a66b67dea1e433d751d.js:1:154)\n    at 173242 (https://discord.com/assets/7803434ae7280e78d421.js:414:232)\n    at l (https://discord.com/assets/0a66b67dea1e433d751d.js:1:154)\n    at 327755 (https://discord.com/assets/443a3a146368a1b94d9c.js:36:749)\n    at Function.l (https://discord.com/assets/0a66b67dea1e433d751d.js:1:154)"]
+[2023-10-13 18:51:44.753] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 18:51:46.347] [1134] (discord.cpp:744): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-10-13 18:51:46.404] [1134] (discord.cpp:744): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-10-13 18:51:46.422] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-10-13 18:51:46.423] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-10-13 18:51:46.424] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-10-13 18:51:46.425] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-10-13 18:51:46.426] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-10-13 18:51:46.428] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-10-13 18:51:46.428] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-10-13 18:51:46.429] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 3 ms"]
+[2023-10-13 18:51:46.429] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-10-13 18:51:46.430] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-10-13 18:51:46.430] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-10-13 18:51:46.441] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-387q: 0, heartbeat interval: 41250, took 15 ms"]
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:51.526] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:51.939] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[READY] took 5507ms, as 7d1ac82bb41f5db5901631797124461e via \ngateway-prd-us-east1-d-387q: 720.34\n|  id_created: 0.997\n|  session_lookup_time: 11.137\n|  session_lookup_finished: 0.018\n|  discord-sessions-prd-2-126: 654.777\n|  |  start_session: 393.654\n|  |  |  discord-api-698fcdf979-xzflt: 345.189\n|  |  |  |  get_user: 26.028\n|  |  |  |  get_guilds: 18.499\n|  |  |  |  user_settings_proto: 0.226\n|  |  |  |  relationships: 206.819\n|  |  |  |  friend_suggestion: 0.07\n|  |  |  |  connections: 0.194\n|  |  |  |  serialized_read_states: 0.007\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 0.001\n|  |  |  |  game_invites: 0.001\n|  |  |  |  experiments: 16.575\n|  |  |  |  affine_user_ids: 45.392\n|  |  |  |  required_action: 0.005\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.2\n|  |  presence_started: 0.407\n|  |  guilds_started: 2.04\n|  |  guilds_connect: 218.279\n|  |  presence_connect: 0.001\n|  |  connect_finished: 218.329\n|  |  build_ready: 25.984\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 13.161\n|  |  split_ready: 0.997"]
+[2023-10-13 18:51:51.939] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-10-13 18:51:52.109] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-10-13 18:51:52.111] [1134] (discord.cpp:744): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-10-13 18:51:52.112] [1134] (discord.cpp:744): JS console: ["%c[DatabaseManager]","removing database (user: 1127538165759090689, database: undefined)"]
+[2023-10-13 18:51:52.112] [1134] (discord.cpp:744): JS console: ["%c[DatabaseManager]","added database (1127538165759090689 → null)"]
+[2023-10-13 18:51:52.200] [1134] (discord.cpp:744): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-10-13 18:51:52.253] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-10-13 18:51:52.254] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Added account: 31oj4q7ubbbw3wfikeddh3gypd5i"]
+[2023-10-13 18:51:52.321] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 1028565647094972447 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-10-13 18:51:52.323] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on CONNECTION_OPEN: 213.79999999998836ms"]
+[2023-10-13 18:51:52.329] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 302ms"]
+[2023-10-13 18:51:52.334] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-d.discord.gg"]
+[2023-10-13 18:51:52.360] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:52.360] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:52.360] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:52.361] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:52.361] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:52.361] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:52.361] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:52.456] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 6030ms"]
+[2023-10-13 18:51:52.457] [1134] (discord.cpp:744): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:52.527] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:51:53.560] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:53.560] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:53.560] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:53.560] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:53.561] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:53.561] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:53.561] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:53.694] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 15 messages in 107ms"]
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:54.527] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:54.675] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1028565647094972447 isBefore:false isAfter:false"]
+[2023-10-13 18:51:55.248] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:55.248] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:55.248] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:55.249] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:55.249] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:55.249] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:55.249] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:55.808] [1178] (engine.cpp:761): Engine::SetClipBufferLength(0)
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:51:56.535] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:51:57.042] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:51:57.042] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:51:57.042] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:51:57.043] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:51:57.046] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:51:57.047] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:51:57.047] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:51:57.190] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","WS Connected"]
+[2023-10-13 18:51:58.048] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 733.7999999999884ms"]
+[2023-10-13 18:51:58.121] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Devices updated for 31oj4q7ubbbw3wfikeddh3gypd5i:",""]
+[2023-10-13 18:51:58.124] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Profile updated for 31oj4q7ubbbw3wfikeddh3gypd5i: isPremium = false"]
+[2023-10-13 18:51:58.872] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 18:52:02.262] [1134] (discord.cpp:744): JS console: ["%c[ReadStateStore]","Deleting ReadState","1122693157809827870","0","[object Object]"]
+[2023-10-13 18:52:02.267] [1134] (discord.cpp:744): JS console: ["%c[ReadStateStore]","Deleting ReadState","1123551518847680603","0","[object Object]"]
+[2023-10-13 18:52:02.270] [1134] (discord.cpp:744): JS console: ["%c[ReadStateStore]","Deleting ReadState","1132602045107548191","0","[object Object]"]
+[2023-10-13 18:52:02.273] [1134] (discord.cpp:744): JS console: ["%c[ReadStateStore]","Deleting ReadState","1143798992543694868","0","[object Object]"]
+[2023-10-13 18:52:02.277] [1134] (discord.cpp:744): JS console: ["%c[ReadStateStore]","Deleting ReadState","1146124635956596736","0","[object Object]"]
+[2023-10-13 18:52:05.872] [1134] (discord.cpp:744): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-10-13 18:52:07.414] [1134] (discord.cpp:744): JS console: ["%c[FetchBlockedDomain]","Server revision: 179, Client revision: 179"]
+[2023-10-13 18:52:08.050] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:52:10.203] [1134] (discord.cpp:744): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is india"]
+[2023-10-13 18:52:13.492] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:52:23.489] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:52:24.013] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Devices updated for 31oj4q7ubbbw3wfikeddh3gypd5i:","[object Object]"]
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:38.005] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:38.018] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:52:38.018] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:52:38.018] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:52:38.019] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:52:38.019] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:52:38.019] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:52:38.019] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:52:43.514] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:52:49.009] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:52:49.010] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:52:49.010] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:52:49.010] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:52:49.010] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:52:49.010] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:52:49.010] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:52:49.010] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:02.017] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:02.018] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:53:02.018] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:53:02.018] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:53:02.018] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:53:02.019] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:53:02.019] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:53:02.019] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:53:03.543] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:53:10.029] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:53:10.030] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:53:10.030] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:53:10.030] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:53:10.030] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:53:10.030] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:53:10.030] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:53:10.030] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:53:18.570] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:53:23.566] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:53:28.576] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:53:50.941] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 119.40000000002328ms"]
+[2023-10-13 18:53:50.945] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 133ms"]
+[2023-10-13 18:53:53.620] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:54:00.414] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 14 messages in 164ms"]
+[2023-10-13 18:54:03.384] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 37 messages in 113ms"]
+[2023-10-13 18:54:06.146] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 141.90000000002328ms"]
+[2023-10-13 18:54:06.177] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 198ms"]
+[2023-10-13 18:54:13.701] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:25.121] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:25.128] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:54:25.128] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:54:25.128] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:54:25.133] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:54:25.135] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:54:25.135] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:54:25.135] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:54:32.120] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:54:32.123] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:54:32.123] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:54:32.123] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:54:32.124] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:54:32.126] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:54:32.126] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:54:32.126] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:54:38.889] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 276.70000000001164ms"]
+[2023-10-13 18:54:38.907] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 3 messages in 298ms"]
+[2023-10-13 18:54:50.477] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 120ms"]
+[2023-10-13 18:55:13.865] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:55:15.476] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 7 messages in 230ms"]
+[2023-10-13 18:55:18.868] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:55:19.117] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 8 messages in 103ms"]
+[2023-10-13 18:55:21.237] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:55:21.238] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:55:21.238] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:21.238] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:21.239] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:55:21.239] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:21.239] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:21.244] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:55:21.244] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:55:21.244] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:55:21.247] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:55:21.278] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:55:21.278] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:55:21.278] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:55:26.591] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 534.8999999999651ms"]
+[2023-10-13 18:55:26.607] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 12 messages in 572ms"]
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:55:28.252] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:28.253] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:55:28.261] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:55:28.261] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:55:28.261] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:55:28.273] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:55:28.292] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:55:28.292] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:55:28.292] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:55:33.287] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 145ms"]
+[2023-10-13 18:55:38.725] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 164.59999999997672ms"]
+[2023-10-13 18:55:38.744] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 258ms"]
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 18:55:56.237] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:55:56.238] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:55:56.238] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 18:55:56.242] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:55:56.242] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:55:56.242] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:55:56.244] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:55:56.249] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:55:56.249] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:55:56.249] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:01.216] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 18:56:01.217] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:56:01.217] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:56:01.217] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:56:01.218] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:56:01.222] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:56:01.222] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:56:01.222] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:56:08.312] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 327ms"]
+[2023-10-13 18:56:08.355] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 405ms"]
+[2023-10-13 18:56:09.217] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:11.304] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 18:56:11.305] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 18:56:11.309] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:56:11.309] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:56:11.309] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:56:11.313] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:56:11.317] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:56:11.317] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:56:11.317] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:56:12.415] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 103ms"]
+[2023-10-13 18:56:13.364] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 18:56:13.364] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 18:56:13.364] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:13.364] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:13.365] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 18:56:13.365] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 18:56:13.365] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 18:56:13.365] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 18:56:13.452] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 18:56:13.453] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 18:56:13.453] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 18:56:13.461] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 18:56:13.474] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 18:56:13.474] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 18:56:13.475] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 18:56:21.667] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 112.89999999996508ms"]
+[2023-10-13 18:56:21.693] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 278ms"]
+[2023-10-13 18:56:24.369] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:25.455] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 1131599861133873223 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-10-13 18:56:26.532] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1131599861133873223 isBefore:false isAfter:false"]
+[2023-10-13 18:56:29.150] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:30.516] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:56:31.525] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:56:40.319] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:43.096] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Profile updated for 31oj4q7ubbbw3wfikeddh3gypd5i: isPremium = false"]
+[2023-10-13 18:56:44.216] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:49.213] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:50.770] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Profile updated for 31oj4q7ubbbw3wfikeddh3gypd5i: isPremium = false"]
+[2023-10-13 18:56:54.285] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:56:55.134] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 297.9000000000233ms"]
+[2023-10-13 18:56:55.141] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 305ms"]
+[2023-10-13 18:56:59.690] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:57:04.162] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:57:08.622] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Profile updated for 31oj4q7ubbbw3wfikeddh3gypd5i: isPremium = false"]
+[2023-10-13 18:57:15.440] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:57:16.756] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload141"]
+[2023-10-13 18:57:17.745] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Uploading upload141"]
+[2023-10-13 18:57:21.421] [1134] (discord.cpp:744): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 211439 bytes and 1 attachments for Uploader145"]
+[2023-10-13 18:57:21.788] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload141"]
+[2023-10-13 18:57:22.912] [1134] (discord.cpp:744): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader145"]
+[2023-10-13 18:57:25.363] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 18:57:25.532] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on RUNNING_GAMES_CHANGE: 164.59999999997672ms"]
+[2023-10-13 18:57:28.876] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:57:37.806] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 18:57:49.335] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 103.09999999997672ms"]
+[2023-10-13 18:57:49.386] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 30 messages in 170ms"]
+[2023-10-13 18:57:54.654] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:57:56.508] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:58:02.063] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:58:06.379] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:58:11.983] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:58:13.563] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 18:58:17.431] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 8 messages in 146ms"]
+[2023-10-13 18:58:20.437] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 4 messages in 121ms"]
+[2023-10-13 18:58:40.466] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:58:48.774] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:08.033] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:19.420] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:23.241] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","Switching to da-DK","(available)"]
+[2023-10-13 18:59:23.601] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:29.137] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:30.998] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:37.641] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 18:59:50.820] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:00:04.349] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:09.312] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:10.192] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 129.09999999997672ms"]
+[2023-10-13 19:00:10.199] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 137ms"]
+[2023-10-13 19:00:14.328] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:18.145] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 1152325706068529282 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-10-13 19:00:19.286] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1152325706068529282 isBefore:false isAfter:false"]
+[2023-10-13 19:00:20.487] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload193"]
+[2023-10-13 19:00:20.623] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:21.958] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Uploading upload193"]
+[2023-10-13 19:00:25.547] [1134] (discord.cpp:744): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload193"]
+[2023-10-13 19:00:30.071] [1134] (discord.cpp:744): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 218223 bytes and 1 attachments for Uploader197"]
+[2023-10-13 19:00:31.849] [1134] (discord.cpp:744): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader197"]
+[2023-10-13 19:00:34.863] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:41.178] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:44.317] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:51.997] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:00:52.769] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 479.9000000000233ms"]
+[2023-10-13 19:00:52.837] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 15 messages in 564ms"]
+[2023-10-13 19:01:00.025] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:01:16.267] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Devices updated for 31oj4q7ubbbw3wfikeddh3gypd5i:","[object Object],[object Object]"]
+[2023-10-13 19:01:19.566] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:01:27.365] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-10-13 19:01:51.702] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 127.5ms"]
+[2023-10-13 19:01:51.705] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 152ms"]
+[2023-10-13 19:01:52.855] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:02:06.219] [1134] (discord.cpp:744): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-10-13 19:02:06.249] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.778] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.778] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.779] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.779] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.779] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:06.779] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:02:07.338] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on USER_SETTINGS_PROTO_UPDATE: 146.29999999993015ms"]
+[2023-10-13 19:02:08.356] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow batch emitReactChanges took 200ms recentActions:","MESSAGE_CREATE -> MESSAGE_REACTION_ADD -> MESSAGE_CREATE -> MESSAGE_CREATE -> MESSAGE_CREATE -> GUILD_MEMBER_ADD -> GUILD_MEMBER_ADD -> MESSAGE_CREATE -> GUILD_MEMBER_ADD -> VOICE_STATE_UPDATES"]
+[2023-10-13 19:02:11.970] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:02:17.951] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:02:26.983] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:02:28.853] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 132.59999999997672ms"]
+[2023-10-13 19:02:28.904] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 51 messages in 483ms"]
+[2023-10-13 19:03:18.040] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 111.90000000002328ms"]
+[2023-10-13 19:03:18.056] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 11 messages in 138ms"]
+[2023-10-13 19:03:18.382] [1134] (discord.cpp:744): JS console: ["%c[Spotify]","Devices updated for 31oj4q7ubbbw3wfikeddh3gypd5i:","[object Object]"]
+[2023-10-13 19:03:19.814] [1134] (discord.cpp:744): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2023-10-13 19:03:40.423] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 4 messages in 142ms"]
+[2023-10-13 19:04:11.372] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 5 messages in 126ms"]
+[2023-10-13 19:04:13.393] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 20 messages in 187ms"]
+[2023-10-13 19:04:17.896] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 131ms"]
+[2023-10-13 19:04:17.903] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 139ms"]
+[2023-10-13 19:04:18.641] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 104ms"]
+[2023-10-13 19:04:20.092] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 4 messages in 144ms"]
+[2023-10-13 19:04:44.142] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 567.5999999999767ms"]
+[2023-10-13 19:04:44.158] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 612ms"]
+[2023-10-13 19:04:53.215] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:04:54.290] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:04:54.994] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:11.746] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:11.746] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:05:11.746] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:05:11.746] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:05:11.747] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:05:11.749] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:05:11.750] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:05:11.750] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:05:12.772] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:05:12.775] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:05:12.775] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:05:12.775] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:05:12.781] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:05:12.783] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:05:12.784] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:05:12.784] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:05:21.490] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on LOAD_RECENT_MENTIONS_SUCCESS: 111.40000000002328ms"]
+[2023-10-13 19:06:10.998] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 110ms"]
+[2023-10-13 19:06:16.315] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 10 messages in 194ms"]
+[2023-10-13 19:06:27.611] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 261.0999999999767ms"]
+[2023-10-13 19:06:27.631] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 450ms"]
+[2023-10-13 19:06:30.424] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 3 messages in 103ms"]
+[2023-10-13 19:06:38.955] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 562ms"]
+[2023-10-13 19:06:38.967] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 608ms"]
+[2023-10-13 19:07:00.866] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:07:00.866] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:07:00.866] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:07:00.867] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 19:07:00.948] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:07:00.949] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:07:00.949] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:07:00.952] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:07:00.953] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:07:00.954] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:07:00.954] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:04.852] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:07:05.071] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:07:05.071] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:07:05.071] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:07:05.072] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:07:05.073] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:07:05.073] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:07:05.073] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:07:11.853] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 19:07:11.854] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:07:11.854] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:07:11.854] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:07:11.854] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:07:11.855] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:07:11.856] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:07:11.856] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:07:16.200] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 147.60000000009313ms"]
+[2023-10-13 19:07:16.204] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 169ms"]
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:16.860] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:07:16.860] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:07:16.861] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:07:16.861] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:07:16.865] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:07:16.867] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:07:16.867] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:07:16.867] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:19.867] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:07:19.873] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:07:19.873] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:07:19.873] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:07:19.887] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:07:19.889] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:07:19.889] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:07:19.889] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:08:10.884] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:08:10.885] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:08:10.885] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:08:10.885] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:08:10.885] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:08:10.886] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:08:10.886] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:08:10.886] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:08:24.654] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 992131682687782984 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-10-13 19:08:24.678] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on CHANNEL_PRELOAD: 110.39999999990687ms"]
+[2023-10-13 19:08:25.428] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 992131682687782984 isBefore:false isAfter:false"]
+[2023-10-13 19:08:25.805] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on LOAD_MESSAGES_SUCCESS: 375.39999999990687ms"]
+[2023-10-13 19:08:26.399] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 7 messages in 147ms"]
+[2023-10-13 19:08:32.295] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:08:32.444] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on CHANNEL_SELECT: 137.80000000004657ms"]
+[2023-10-13 19:08:47.320] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 54 messages in 860ms"]
+[2023-10-13 19:08:52.075] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:08:52.200] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:08:52.235] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:08:53.194] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 233.69999999995343ms"]
+[2023-10-13 19:08:53.218] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 258ms"]
+[2023-10-13 19:09:02.648] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:09:20.834] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 130ms"]
+[2023-10-13 19:09:44.784] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:09:52.420] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:10:04.467] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 3 messages in 155ms"]
+[2023-10-13 19:10:07.391] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:10:16.906] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:10:16.954] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:10:17.006] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:10:27.184] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 255.0999999998603ms"]
+[2023-10-13 19:10:27.191] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 277ms"]
+[2023-10-13 19:10:30.309] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:10:31.669] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:10:50.534] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:10:50.665] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:10:50.746] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:11:05.927] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:11:07.234] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:11:07.256] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:11:07.287] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:11:16.303] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","Switching to nl-NL","(available)"]
+[2023-10-13 19:11:18.561] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:11:46.639] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.791] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.792] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.792] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.792] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.792] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:46.792] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:11:49.009] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:12:10.190] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 19:12:10.242] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:12:10.242] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:12:10.242] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:12:10.244] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:12:10.254] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:12:10.254] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:12:10.254] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:12:32.552] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:12:38.954] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:12:39.107] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:12:39.172] [1134] (discord.cpp:744): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-10-13 19:12:48.925] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 308.0999999998603ms"]
+[2023-10-13 19:12:48.943] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 12 messages in 351ms"]
+[2023-10-13 19:12:54.449] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:13:05.788] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:13:06.347] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:13:08.800] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 58 messages in 105ms"]
+[2023-10-13 19:13:23.083] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.253] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.254] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.254] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.254] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.255] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.255] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:23.255] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:13:26.153] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:13:26.154] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:13:26.154] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:13:26.154] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:13:26.154] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:13:26.157] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:13:26.157] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:13:26.157] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:14:02.025] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 1131695197500223509 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-10-13 19:14:03.059] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1131695197500223509 isBefore:false isAfter:false"]
+[2023-10-13 19:14:03.290] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 14 messages in 124ms"]
+[2023-10-13 19:14:05.285] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:09.920] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:11.745] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:16.115] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:18.718] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:20.881] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:14:25.273] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:14:29.838] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:14:58.272] [1134] (discord.cpp:744): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-10-13 19:14:58.726] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:15:01.611] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.334] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.334] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.335] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.336] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.336] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:02.337] [1134] (discord.cpp:744): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-10-13 19:15:08.865] [1134] (discord.cpp:744): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:15:10.261] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 19:15:11.022] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:15:11.023] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:15:11.023] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:15:11.024] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:15:11.028] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:15:11.028] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:15:11.028] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:15:11.210] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 11 messages in 102ms"]
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:15:20.249] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:15:20.249] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:15:20.249] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:15:20.249] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:15:20.250] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:15:20.250] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:15:20.250] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:15:20.250] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:15:30.478] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 136.89999999990687ms"]
+[2023-10-13 19:15:30.483] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 3 messages in 159ms"]
+[2023-10-13 19:15:33.320] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:15:53.057] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 57 messages in 292ms"]
+[2023-10-13 19:15:55.920] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 37 messages in 171ms"]
+[2023-10-13 19:16:17.617] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 102ms"]
+[2023-10-13 19:16:24.712] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 435.5999999998603ms"]
+[2023-10-13 19:16:24.764] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 5 messages in 566ms"]
+[2023-10-13 19:16:31.673] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 147ms"]
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:205): - default: Reconnect S-RP ()
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:16:39.340] [1178] (engine.cpp:205): - Reconnect S-RP ()
+[2023-10-13 19:16:39.342] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:16:39.342] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:16:39.342] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:16:39.344] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:16:39.347] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:16:39.347] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:16:39.347] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:205): - default: Airdopes 131 ()
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:16:45.332] [1178] (engine.cpp:205): - Airdopes 131 ()
+[2023-10-13 19:16:45.333] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:16:45.333] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:16:45.333] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:16:45.333] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:16:45.333] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:16:45.333] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:16:45.333] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:17:12.472] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:14.974] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:15.000] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:20.429] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 109.19999999995343ms"]
+[2023-10-13 19:17:20.439] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 154ms"]
+[2023-10-13 19:17:21.100] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:22.136] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:22.177] [1134] (discord.cpp:744): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-10-13 19:17:31.391] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow batch emitReactChanges took 138ms recentActions:","SPOTIFY_PLAYER_STATE -> SELF_PRESENCE_STORE_UPDATE -> SELF_PRESENCE_STORE_UPDATE -> MESSAGE_CREATE -> MESSAGE_CREATE -> MESSAGE_CREATE -> DRAFT_CHANGE -> TYPING_START_LOCAL -> DRAFT_SAVE -> WINDOW_FOCUS"]
+[2023-10-13 19:17:35.259] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 11 messages in 129ms"]
+[2023-10-13 19:17:47.768] [1134] (discord.cpp:744): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 222.89999999990687ms"]
+[2023-10-13 19:17:47.782] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 13 messages in 295ms"]
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:205): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:25:55.723] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:25:55.724] [1178] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-10-13 19:25:55.724] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:25:55.724] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-10-13 19:25:55.724] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:25:55.725] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:25:55.725] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:25:55.725] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:196): *** OnDevicesChanged:
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:197): * audioInput:
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:200): - default: Built-in Audio Analog Stereo ()
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:200): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:202): * audioOutput:
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:205): - default: OnePlus Bullets Wireless Z2 ()
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:205): - Built-in Audio Analog Stereo ()
+[2023-10-13 19:26:27.753] [1178] (engine.cpp:205): - OnePlus Bullets Wireless Z2 ()
+[2023-10-13 19:26:27.753] [1178] (audio_engine.cpp:206): Setting audio output device: 'OnePlus Bullets Wireless Z2'
+[2023-10-13 19:26:27.753] [1178] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-10-13 19:26:27.753] [1178] (audio_device_impl.cc:720): SetPlayoutDevice
+[2023-10-13 19:26:27.753] [1178] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2023-10-13 19:26:27.755] [1178] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2023-10-13 19:26:27.755] [1178] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-10-13 19:26:27.756] [1178] (audio_device_impl.cc:619): output: 1
+[2023-10-13 19:26:27.756] [1178] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-10-13 19:26:27.756] [1178] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-10-13 19:32:24.145] [1134] (discord.cpp:744): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1028565646071574559/1028565647094972447"]
+[2023-10-13 19:32:26.387] [1134] (discord.cpp:744): JS console: ["%c[ConnectionStore]","Dispatched 12 messages in 112ms"]
+[2023-10-13 19:32:40.279] [1134] (discord.cpp:744): JS console: ["%c[MessageActionCreators]","Fetching messages for 1028565647094972447 between undefined and undefined. jump={\"messageId\":\"1162388262904664064\",\"flash\":true,\"returnMessageId\":\"1162388655629938700\"}"]
+[2023-10-13 19:33:08.417] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.417] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.417] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.418] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.419] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.420] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.421] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.422] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.423] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.424] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.425] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.426] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.427] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.428] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.429] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.430] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.431] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.432] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.433] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.434] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.435] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.436] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.436] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.436] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.438] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.439] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.441] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.443] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.445] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.449] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.455] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.459] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.460] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.461] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.462] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.463] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.464] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.465] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.466] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.470] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.473] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.474] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.475] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]
+[2023-10-13 19:33:08.476] [1134] (discord.cpp:744): JS console: ["Window state not initialized","window-1"]

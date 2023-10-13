@@ -1,0 +1,12 @@
+2023-10-13 21:00:29.428 [info] update#setState disabled
+2023-10-13 21:00:29.856 [info] update#ctor - updates are disabled as there is no update URL
+2023-10-13 21:15:21.292 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:15:52.646 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:16:49.932 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:17:31.566 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:18:12.252 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:18:27.107 [error] CodeWindow: detected unresponsive
+2023-10-13 21:20:02.000 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:21:46.592 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:23:30.013 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-13 21:24:38.367 [warning] No ptyHost heartbeat after 6 seconds

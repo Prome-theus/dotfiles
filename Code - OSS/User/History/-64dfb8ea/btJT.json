@@ -1,0 +1,7 @@
+{
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Activate SCARLET protocol (beta)",
+    "editor.fontFamily": "'San-Francisco-Pro','Droid Sans Mono', 'monospace', monospace",
+    "security.workspace.trust.untrustedFiles": "newWindow"
+}

@@ -1,0 +1,129 @@
+/* window {
+  margin: 0px;
+  border: 5px solid #111019;
+  background-color: rgba(11, 10, 16, 0.9);
+  border-radius: 15px;
+}
+
+#input {
+  all: unset;
+  min-height: 36px;
+  padding: 4px 10px;
+  margin: 4px;
+  border: none;
+  color: #e2e0ec;
+  font-weight: bold;
+  background-color: #161420;
+  outline: none;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 2px;
+}
+
+#inner-box {
+  margin: 4px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#outer-box {
+  margin: 0px;
+  padding: 3px;
+  border: none;
+  border-radius: 15px;
+  border: 5px solid #111019;
+}
+
+#scroll {
+  margin-top: 5px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+#text:selected {
+  color: #f1f0f5;
+  margin: 5px 5px;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 15px;
+}
+
+#entry {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(#E97193 0%, #f09db5 100%);
+} */
+
+
+
+/** ********** Fonts ********** **/
+* {
+  font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
+  font-size: 16px;
+}
+
+#window {
+background-color: --wofi-color6;
+color: --wofi-color6;
+border: 2px solid --wofi-color6;
+border-radius: 15px;
+}
+
+#outer-box {
+padding: 15px;
+}
+
+#input {
+background-color: --wofi-color6;
+border: 0px solid --wofi-color6;
+padding: 8px 12px;
+}
+
+#scroll {
+margin-top: 10px;
+}
+
+#inner-box {
+  background-color: black;
+}
+
+#img {
+padding-right: 30px;
+}
+
+#text {
+color: --wofi-color2;
+}
+
+#text:selected {
+color: --wofi-color0;
+}
+
+#entry {
+padding: 10px;
+}
+
+#entry:selected {
+background-color: --wofi-color3;
+color: --wofi-color0;
+}
+
+#unselected {
+}
+
+#selected {
+}
+
+#input, #entry:selected {
+border-radius: 20px;
+}

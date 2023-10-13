@@ -1,0 +1,7 @@
+[Added Associations]
+text/x-lua=code-oss.desktop;nvim.desktop;
+text/plain=code-oss.desktop;nvim.desktop;
+application/zip=nemo.desktop;
+
+[Default Applications]
+application/zip=nemo.desktop

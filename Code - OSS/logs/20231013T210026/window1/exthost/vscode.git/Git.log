@@ -1,0 +1,26 @@
+2023-10-13 21:00:49.054 [info] Log level: Info
+2023-10-13 21:00:49.054 [info] Validating found git in: "git"
+2023-10-13 21:00:49.367 [info] Using git "2.42.0" from "git"
+2023-10-13 21:00:49.617 [info] > git rev-parse --show-toplevel [217ms]
+2023-10-13 21:00:49.626 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-13 21:00:49.652 [info] Open repository: /home/manoj/system/rashtriya-tv
+2023-10-13 21:00:49.677 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-13 21:00:49.678 [info] > git config --get commit.template [14ms]
+2023-10-13 21:00:49.692 [info] > git rev-parse --show-toplevel [9ms]
+2023-10-13 21:00:49.700 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-13 21:00:49.707 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-13 21:00:51.423 [info] > git check-ignore -v -z --stdin [7ms]
+2023-10-13 21:00:51.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1736ms]
+2023-10-13 21:00:51.492 [info] > git status -z -uall [50ms]
+2023-10-13 21:00:51.578 [info] > git config --get commit.template [25ms]
+2023-10-13 21:00:51.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-10-13 21:00:51.752 [info] > git status -z -uall [8ms]
+2023-10-13 21:01:10.136 [info] > git show --textconv :src/app/page.js [43ms]
+2023-10-13 21:01:10.142 [info] > git ls-files --stage -- /home/manoj/system/rashtriya-tv/src/app/page.js [8ms]
+2023-10-13 21:01:10.184 [info] > git cat-file -s 941d13766cc7b2ad302e8629bb81fd666181ce33 [24ms]
+2023-10-13 21:04:52.402 [info] > git config --get commit.template [33ms]
+2023-10-13 21:04:52.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [63ms]
+2023-10-13 21:04:52.476 [info] > git status -z -uall [5ms]
+2023-10-13 21:05:23.645 [info] > git config --get commit.template [117ms]
+2023-10-13 21:05:23.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [315ms]
+2023-10-13 21:05:24.451 [info] > git status -z -uall [473ms]

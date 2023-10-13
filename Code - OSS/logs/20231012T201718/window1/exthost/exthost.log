@@ -1,0 +1,282 @@
+2023-10-12 20:17:46.677 [info] Extension host with pid 5541 started
+2023-10-12 20:17:46.678 [info] Skipping acquiring lock for /home/manoj/.config/Code - OSS/User/workspaceStorage/3e728b86aecf193d8527e69a15f41a1d.
+2023-10-12 20:17:52.728 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 20:17:52.834 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-10-12 20:17:53.443 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 20:17:53.609 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 20:17:54.189 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-12 20:17:58.295 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 20:17:59.295 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 20:17:59.508 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 20:18:09.290 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:09.418 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:09.838 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:10.543 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:10.808 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:12.142 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 20:18:18.048 [error] Activating extension LeonardSSH.vscord failed due to an error:
+2023-10-12 20:18:18.048 [error] Error: Extension 'vscode.git' is not known or not activated
+    at S.getActivatedExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:3503)
+    at s.getExtensionExports (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8891)
+    at V.get exports [as exports] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:22547)
+    at new rs (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/data.ts:48:31)
+    at Object.<anonymous> (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/data.ts:332:26)
+    at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1271)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1324:10)
+    at Module.load (node:internal/modules/cjs/loader:1124:32)
+    at Module._load (node:internal/modules/cjs/loader:965:12)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13377)
+    at Function.u._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:5631)
+    at Function.c._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:29196)
+    at Function.t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:35261)
+    at Module.require (node:internal/modules/cjs/loader:1148:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+    at s.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:30375)
+    at async Promise.all (index 0)
+2023-10-12 20:18:19.047 [info] Eager extensions activated
+2023-10-12 20:18:25.503 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-12 21:13:16.218 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 21:13:16.715 [error] Canceled: Canceled
+    at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/usr/lib/code/extensions/git/dist/main.js:2:1312800)
+    at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1328588)
+    at /usr/lib/code/extensions/git/dist/main.js:2:1333429
+    at Array.forEach (<anonymous>)
+    at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1333415)
+    at v.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1314812)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-12 21:13:16.877 [error] Canceled: Canceled
+    at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at t.$D.set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:714415)
+    at /usr/lib/code/extensions/github/dist/extension.js:2:715056
+    at s.value (/usr/lib/code/extensions/git/dist/main.js:2:1402040)
+    at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1328588)
+    at /usr/lib/code/extensions/git/dist/main.js:2:1333429
+    at Array.forEach (<anonymous>)
+    at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1333415)
+    at v.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1314812)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-12 21:13:16.970 [info] Extension host with pid 5541 exiting with code 0
+2023-10-12 21:13:26.191 [info] Extension host with pid 20629 started
+2023-10-12 21:13:26.763 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 21:13:26.781 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 21:13:27.518 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 21:13:27.569 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 21:13:27.609 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 21:13:28.060 [info] Eager extensions activated
+2023-10-12 21:13:30.138 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:13:30.246 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:13:30.376 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:13:30.510 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:13:30.567 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:13:30.907 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:14:45.697 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 21:28:00.229 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 21:28:00.441 [info] Extension host with pid 20629 exiting with code 0
+2023-10-12 21:28:07.643 [info] Extension host with pid 24677 started
+2023-10-12 21:28:07.644 [info] Skipping acquiring lock for /home/manoj/.config/Code - OSS/User/workspaceStorage/d665d4f3e7db5d8953e92edbe584201e.
+2023-10-12 21:28:08.440 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 21:28:08.986 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 21:28:09.008 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 21:28:09.285 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 21:28:09.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 21:28:09.388 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 21:28:09.625 [info] Eager extensions activated
+2023-10-12 21:28:10.069 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:28:10.074 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:28:10.091 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:28:10.258 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:28:10.291 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:28:10.519 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:35.304 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 21:34:35.529 [info] Extension host with pid 24677 exiting with code 0
+2023-10-12 21:34:43.121 [info] Extension host with pid 27604 started
+2023-10-12 21:34:43.970 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 21:34:43.983 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 21:34:44.194 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 21:34:44.361 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 21:34:44.383 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 21:34:44.754 [info] Eager extensions activated
+2023-10-12 21:34:44.870 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:44.877 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:44.905 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:45.015 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:45.025 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:34:45.251 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:35:32.596 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 21:35:32.654 [info] Extension host with pid 27604 exiting with code 0
+2023-10-12 21:35:48.855 [info] Extension host with pid 27950 started
+2023-10-12 21:35:48.855 [info] Skipping acquiring lock for /home/manoj/.config/Code - OSS/User/workspaceStorage/ab11163c5941957aa3234671e2ce2089.
+2023-10-12 21:35:49.623 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 21:35:52.327 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 21:35:52.347 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 21:35:57.565 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 21:35:57.789 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 21:35:58.122 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 21:35:58.795 [info] Eager extensions activated
+2023-10-12 21:35:59.105 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:35:59.121 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:35:59.391 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:35:59.641 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:35:59.866 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:36:00.648 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 21:36:10.677 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-12 23:30:56.276 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a git repository (or any of the parent directories): .git\n","exitCode":128,"gitErrorCode":"NotAGitRepository","gitCommand":"remote","gitArgs":["remote","--verbose"]}
+2023-10-12 23:38:27.708 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 23:38:27.799 [info] Extension host with pid 27950 exiting with code 0
+2023-10-12 23:38:33.994 [info] Extension host with pid 62422 started
+2023-10-12 23:38:34.310 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 23:38:34.324 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 23:38:34.517 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 23:38:34.604 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 23:38:34.622 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 23:38:35.117 [info] Eager extensions activated
+2023-10-12 23:38:35.329 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:35.339 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:35.368 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:35.586 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:35.595 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:35.804 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:38:42.861 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 23:38:42.921 [info] Extension host with pid 62422 exiting with code 0
+2023-10-12 23:38:50.946 [info] Extension host with pid 62574 started
+2023-10-12 23:38:50.946 [info] Skipping acquiring lock for /home/manoj/.config/Code - OSS/User/workspaceStorage/3e728b86aecf193d8527e69a15f41a1d.
+2023-10-12 23:38:51.552 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 23:38:51.594 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-10-12 23:38:55.263 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-12 23:38:55.271 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2023-10-12 23:38:55.296 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-12 23:38:56.036 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-12 23:38:56.175 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 23:38:56.600 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2023-10-12 23:38:59.639 [info] Eager extensions activated
+2023-10-12 23:38:59.959 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-12 23:39:00.138 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:00.188 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:00.281 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:01.192 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:01.237 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:01.933 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:45:04.268 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-12 23:45:04.475 [error] Canceled: Canceled
+    at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/usr/lib/code/extensions/git/dist/main.js:2:1312800)
+    at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1328588)
+    at /usr/lib/code/extensions/git/dist/main.js:2:1333429
+    at Array.forEach (<anonymous>)
+    at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1333415)
+    at v.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1314812)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-12 23:45:04.657 [error] Canceled: Canceled
+    at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at t.$D.set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:714415)
+    at /usr/lib/code/extensions/github/dist/extension.js:2:715056
+    at s.value (/usr/lib/code/extensions/git/dist/main.js:2:1402040)
+    at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1328588)
+    at /usr/lib/code/extensions/git/dist/main.js:2:1333429
+    at Array.forEach (<anonymous>)
+    at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1333415)
+    at v.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1314812)
+    at v.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-12 23:45:05.383 [info] Extension host with pid 62574 exiting with code 0

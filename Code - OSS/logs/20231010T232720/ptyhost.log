@@ -1,0 +1,3 @@
+2023-10-10 23:27:29.939 [warning] Persistent process reconnection "1" failed Could not find pty on pty host
+2023-10-10 23:27:29.946 [error] [RPC Response] PtyService#attachToProcess Could not find pty on pty host
+2023-10-10 23:27:32.409 [info] Revived process, old id 3e728b86aecf193d8527e69a15f41a1d-1 -> new id 2

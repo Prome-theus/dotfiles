@@ -1,0 +1,20 @@
+2023-10-13 12:03:58.821 [info] Log level: Info
+2023-10-13 12:03:58.821 [info] Validating found git in: "git"
+2023-10-13 12:03:58.821 [info] Using git "2.42.0" from "git"
+2023-10-13 12:03:58.821 [info] > git rev-parse --show-toplevel [85ms]
+2023-10-13 12:03:58.821 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-10-13 12:03:58.821 [info] Open repository: /home/manoj/system/rashtriya-tv
+2023-10-13 12:03:58.821 [info] > git rev-parse --show-toplevel [90ms]
+2023-10-13 12:03:58.821 [info] > git config --get commit.template [170ms]
+2023-10-13 12:03:59.169 [info] > git rev-parse --show-toplevel [259ms]
+2023-10-13 12:03:59.237 [info] > git rev-parse --show-toplevel [33ms]
+2023-10-13 12:03:59.503 [info] > git rev-parse --show-toplevel [60ms]
+2023-10-13 12:03:59.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [623ms]
+2023-10-13 12:03:59.818 [info] > git check-ignore -v -z --stdin [317ms]
+2023-10-13 12:04:00.295 [info] > git status -z -uall [488ms]
+2023-10-13 12:04:00.627 [info] > git config --get commit.template [238ms]
+2023-10-13 12:04:00.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2023-10-13 12:04:00.718 [info] > git status -z -uall [27ms]
+2023-10-13 12:04:27.660 [info] > git show --textconv :src/app/page.js [88ms]
+2023-10-13 12:04:27.667 [info] > git ls-files --stage -- /home/manoj/system/rashtriya-tv/src/app/page.js [8ms]
+2023-10-13 12:04:27.771 [info] > git cat-file -s 941d13766cc7b2ad302e8629bb81fd666181ce33 [26ms]

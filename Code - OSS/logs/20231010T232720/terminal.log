@@ -1,0 +1,2 @@
+2023-10-10 23:27:29.993 [warning] Couldn't attach to process Could not find pty on pty host []
+2023-10-10 23:27:29.994 [warning] Attach to process failed for terminal [{"id":1,"pid":88758,"title":"npm","titleSource":1,"cwd":"","icon":{"id":"terminal-bash"},"hasChildProcesses":true,"shellIntegrationNonce":"c7dd5aef-6a86-4103-85a9-abf1045798cd","findRevivedId":true}]

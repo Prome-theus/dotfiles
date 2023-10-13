@@ -1,0 +1,22 @@
+[12:03:59 PM] [INFO] Discord Rich Presence for VS Code activated.
+[12:03:59 PM] [INFO] Registered Discord Rich Presence commands
+[12:04:08 PM] [ERROR] Encountered following error while trying to login: RPC_CONNECTION_TIMEOUT: Connection timed out
+    at Za.login (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/node_modules/.pnpm/@xhayper+discord-rpc@1.0.21/node_modules/@xhayper/discord-rpc/dist/Client.js:250:20)
+    at new on (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/controller.ts:43:26)
+    at Object.<anonymous> (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/extension.ts:11:20)
+    at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1271)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1324:10)
+    at Module.load (node:internal/modules/cjs/loader:1124:32)
+    at Module._load (node:internal/modules/cjs/loader:965:12)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13377)
+    at Function.u._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:5631)
+    at Function.c._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:29196)
+    at Function.t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:35261)
+    at Module.require (node:internal/modules/cjs/loader:1148:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+    at s.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:30375)
+    at async Promise.all (index 0)
+[12:04:12 PM] [INFO] [002] Destroyed Discord RPC client
+[12:27:24 PM] [INFO] Discord Rich Presence for VS Code deactivated.
+[12:27:24 PM] [INFO] [004] Destroyed Discord RPC client

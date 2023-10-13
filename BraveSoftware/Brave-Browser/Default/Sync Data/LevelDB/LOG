@@ -1,0 +1,6 @@
+2023/10/13-20:22:14.735 599 Reusing MANIFEST /home/manoj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/13-20:22:14.823 599 Recovering log #665
+2023/10/13-20:22:15.242 599 Reusing old log /home/manoj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000665.log 
+2023/10/13-21:34:25.294 598 Level-0 table #669: started
+2023/10/13-21:34:25.525 598 Level-0 table #669: 70538 bytes OK
+2023/10/13-21:34:25.757 598 Delete type=0 #665

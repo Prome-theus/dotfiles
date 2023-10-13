@@ -1,0 +1,76 @@
+width=450
+height=250
+location=center
+show=drun
+prompt=Search...
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitive=true
+allow_images=true
+image_size=40
+; gtk_dark=true
+
+
+; ///////////////////////////////
+; width=600
+; height=500
+; location=center
+; show=drun
+; prompt=Apps
+; filter_rate=100
+; allow_markup=true
+; no_actions=true
+; halign=fill
+; orientation=vertical
+; content_halign=fill
+; insensitive=true
+; allow_images=true
+; image_size=40
+; gtk_dark=true
+
+; ///////////////
+
+; ##
+; ## Wofi Config
+
+; ## General
+; show=drun
+; prompt=Apps
+; al_window=true
+; layer=top
+; term=foot
+
+; ## Geometry
+; width=450px
+; height=250px
+; location=0
+; orientation=vertical
+; halign=fill
+; line_wrap=off
+; dynamic_lines=false
+
+; ## Images
+; allow_markup=true
+; allow_images=true
+; image_size=24
+
+; ## Search
+; exec_search=false
+; hide_search=false
+; parse_search=false
+; insensitive=false
+
+; ## Other
+; hide_scroll=true
+; no_actions=true
+; sort_order=default
+; gtk_dark=true
+; filter_rate=100
+
+; ## Keys
+; key_expand=Tab
+; key_exit=Escape

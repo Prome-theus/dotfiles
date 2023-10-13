@@ -1,0 +1,7 @@
+2023-10-10 23:27:20.332 [info] update#setState disabled
+2023-10-10 23:27:20.336 [info] update#ctor - updates are disabled as there is no update URL
+2023-10-11 01:09:22.870 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-10-11 01:09:22.878 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 135819]: crashed with code 15 and reason 'killed'
+2023-10-11 01:09:22.884 [info] Extension host with pid 135821 exited with code: 0, signal: unknown.
+2023-10-11 02:08:43.109 [info] Extension host with pid 106127 exited with code: 0, signal: unknown.
+2023-10-11 02:08:43.111 [error] ptyHost terminated unexpectedly with code 0

@@ -1,0 +1,3 @@
+2023-10-11 01:09:22.829 [info] Extension host with pid 135821 started
+2023-10-11 01:09:22.878 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-11 01:09:22.880 [info] Extension host with pid 135821 exiting with code 0

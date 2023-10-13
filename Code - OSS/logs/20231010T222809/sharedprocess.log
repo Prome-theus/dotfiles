@@ -1,0 +1,21 @@
+2023-10-10 22:30:11.024 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2023-10-10 22:30:12.080 [info] Installing extension: bradlc.vscode-tailwindcss
+2023-10-10 22:30:18.888 [info] Extension signature verification is not done: bradlc.vscode-tailwindcss
+2023-10-10 22:30:20.372 [info] Extracted extension to file:///home/manoj/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.0-universal: bradlc.vscode-tailwindcss
+2023-10-10 22:30:20.437 [info] Renamed to /home/manoj/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.0-universal
+2023-10-10 22:30:20.489 [info] Extracting extension completed. bradlc.vscode-tailwindcss
+2023-10-10 22:30:20.728 [info] Extension installed successfully: bradlc.vscode-tailwindcss
+2023-10-10 22:32:18.300 [info] Getting Manifest... pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:19.450 [info] Installing extension: pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:28.109 [info] Extension signature verification is not done: pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:28.352 [info] Extracted extension to file:///home/manoj/.vscode-oss/extensions/pulkitgangwar.nextjs-snippets-1.0.1-universal: pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:28.668 [info] Renamed to /home/manoj/.vscode-oss/extensions/pulkitgangwar.nextjs-snippets-1.0.1-universal
+2023-10-10 22:32:28.823 [info] Extracting extension completed. pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:29.124 [info] Extension installed successfully: pulkitgangwar.nextjs-snippets
+2023-10-10 22:32:29.206 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/manoj/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/manoj/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.eb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35625)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

@@ -1,0 +1,158 @@
+2023-10-12 20:18:20.699 [info] Log level: Info
+2023-10-12 20:18:20.699 [info] Validating found git in: "git"
+2023-10-12 20:18:20.699 [info] Using git "2.42.0" from "git"
+2023-10-12 20:18:20.699 [info] > git rev-parse --show-toplevel [347ms]
+2023-10-12 20:18:20.827 [info] > git rev-parse --git-dir --git-common-dir [350ms]
+2023-10-12 20:18:21.580 [info] Open repository: /home/manoj/system/rashtriya-tv
+2023-10-12 20:18:22.852 [info] > git rev-parse --show-toplevel [722ms]
+2023-10-12 20:18:22.877 [info] > git config --get commit.template [945ms]
+2023-10-12 20:18:23.489 [info] > git check-ignore -v -z --stdin [396ms]
+2023-10-12 20:18:23.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [148ms]
+2023-10-12 20:18:23.962 [info] > git rev-parse --show-toplevel [639ms]
+2023-10-12 20:18:24.263 [info] > git status -z -uall [303ms]
+2023-10-12 20:18:25.306 [info] > git rev-parse --show-toplevel [1094ms]
+2023-10-12 20:18:25.471 [info] > git config --get commit.template [354ms]
+2023-10-12 20:18:26.005 [info] > git rev-parse --show-toplevel [542ms]
+2023-10-12 20:18:26.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2023-10-12 20:18:26.512 [info] > git status -z -uall [278ms]
+2023-10-12 20:18:44.677 [info] > git ls-files --stage -- /home/manoj/system/rashtriya-tv/src/app/page.js [14ms]
+2023-10-12 20:18:44.805 [info] > git show --textconv :src/app/page.js [179ms]
+2023-10-12 20:18:44.860 [info] > git cat-file -s 941d13766cc7b2ad302e8629bb81fd666181ce33 [56ms]
+2023-10-12 21:13:28.062 [info] Log level: Info
+2023-10-12 21:13:28.077 [info] Validating found git in: "git"
+2023-10-12 21:13:28.077 [info] Using git "2.42.0" from "git"
+2023-10-12 21:14:45.657 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-12 21:14:45.657 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:28:09.630 [info] Log level: Info
+2023-10-12 21:28:09.630 [info] Validating found git in: "git"
+2023-10-12 21:28:09.630 [info] Using git "2.42.0" from "git"
+2023-10-12 21:28:09.672 [info] > git rev-parse --show-toplevel [12ms]
+2023-10-12 21:28:09.673 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:28:09.973 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-12 21:28:09.973 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:28:11.746 [info] > git rev-parse --show-toplevel [9ms]
+2023-10-12 21:28:11.746 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:28:12.514 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-12 21:28:12.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:28:12.941 [info] > git rev-parse --show-toplevel [10ms]
+2023-10-12 21:28:12.942 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:34:44.764 [info] Log level: Info
+2023-10-12 21:34:44.765 [info] Validating found git in: "git"
+2023-10-12 21:34:44.765 [info] Using git "2.42.0" from "git"
+2023-10-12 21:35:58.812 [info] Log level: Info
+2023-10-12 21:35:58.812 [info] Validating found git in: "git"
+2023-10-12 21:35:58.812 [info] Using git "2.42.0" from "git"
+2023-10-12 21:35:59.023 [info] > git rev-parse --show-toplevel [108ms]
+2023-10-12 21:35:59.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:01.203 [info] > git rev-parse --show-toplevel [2100ms]
+2023-10-12 21:36:01.204 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:02.886 [info] > git rev-parse --show-toplevel [108ms]
+2023-10-12 21:36:02.887 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:03.943 [info] > git rev-parse --show-toplevel [650ms]
+2023-10-12 21:36:03.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:04.509 [info] > git rev-parse --show-toplevel [191ms]
+2023-10-12 21:36:04.509 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:05.036 [info] > git rev-parse --show-toplevel [296ms]
+2023-10-12 21:36:05.036 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:05.210 [info] > git rev-parse --show-toplevel [45ms]
+2023-10-12 21:36:05.210 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:05.883 [info] > git rev-parse --show-toplevel [544ms]
+2023-10-12 21:36:05.884 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:06.354 [info] > git rev-parse --show-toplevel [64ms]
+2023-10-12 21:36:06.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:06.609 [info] > git rev-parse --show-toplevel [141ms]
+2023-10-12 21:36:06.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:06.804 [info] > git rev-parse --show-toplevel [41ms]
+2023-10-12 21:36:06.804 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:07.003 [info] > git rev-parse --show-toplevel [96ms]
+2023-10-12 21:36:07.003 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:07.255 [info] > git rev-parse --show-toplevel [151ms]
+2023-10-12 21:36:07.256 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:07.477 [info] > git rev-parse --show-toplevel [26ms]
+2023-10-12 21:36:07.686 [info] > git rev-parse --git-dir --git-common-dir [71ms]
+2023-10-12 21:36:08.270 [info] Open repository: /home/manoj/.config/nvim
+2023-10-12 21:36:08.501 [info] > git rev-parse --show-toplevel [98ms]
+2023-10-12 21:36:08.502 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:08.506 [info] > git config --get commit.template [132ms]
+2023-10-12 21:36:08.771 [info] > git rev-parse --show-toplevel [191ms]
+2023-10-12 21:36:08.771 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:08.872 [info] > git rev-parse --show-toplevel [42ms]
+2023-10-12 21:36:08.872 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:08.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/v2.0 refs/remotes/v2.0 [254ms]
+2023-10-12 21:36:09.098 [info] > git rev-parse --show-toplevel [150ms]
+2023-10-12 21:36:09.098 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:09.222 [info] > git status -z -uall [216ms]
+2023-10-12 21:36:09.223 [info] > git check-ignore -v -z --stdin [136ms]
+2023-10-12 21:36:09.229 [info] > git rev-parse --show-toplevel [41ms]
+2023-10-12 21:36:09.229 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:10.660 [info] > git config --get commit.template [143ms]
+2023-10-12 21:36:10.662 [info] > git rev-parse --show-toplevel [188ms]
+2023-10-12 21:36:10.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:11.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/v2.0 refs/remotes/v2.0 [113ms]
+2023-10-12 21:36:11.086 [info] > git rev-parse --show-toplevel [231ms]
+2023-10-12 21:36:11.086 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:11.124 [info] > git status -z -uall [40ms]
+2023-10-12 21:36:11.150 [info] > git rev-parse --show-toplevel [30ms]
+2023-10-12 21:36:11.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:11.635 [info] > git rev-parse --show-toplevel [278ms]
+2023-10-12 21:36:11.635 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:11.704 [info] > git rev-parse --show-toplevel [10ms]
+2023-10-12 21:36:11.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:11.792 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-12 21:36:11.792 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:13.862 [info] > git rev-parse --show-toplevel [12ms]
+2023-10-12 21:36:13.862 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:36:16.828 [info] > git rev-parse --show-toplevel [8ms]
+2023-10-12 21:36:16.828 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 21:37:49.894 [info] > git check-ignore -v -z --stdin [5ms]
+2023-10-12 23:30:53.549 [warning] ENOENT: no such file or directory, open '/home/manoj/.config/nvim/.git/HEAD'
+2023-10-12 23:30:53.647 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/manoj/.config/nvim/.git/config'
+2023-10-12 23:30:53.934 [info] > git remote --verbose [286ms]
+2023-10-12 23:30:53.934 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:30:54.324 [info] > git symbolic-ref --short HEAD [776ms]
+2023-10-12 23:30:54.325 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:30:55.065 [warning] ENOENT: no such file or directory, open '/home/manoj/.config/nvim/.git/HEAD'
+2023-10-12 23:30:55.172 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/manoj/.config/nvim/.git/config'
+2023-10-12 23:30:55.244 [info] > git config --get commit.template [1425ms]
+2023-10-12 23:30:55.260 [info] > git remote --verbose [88ms]
+2023-10-12 23:30:55.261 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:30:55.264 [info] > git symbolic-ref --short HEAD [199ms]
+2023-10-12 23:30:55.266 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:30:55.366 [info] > git rev-parse HEAD [664ms]
+2023-10-12 23:30:55.366 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:30:55.375 [info] > git config --get commit.template [136ms]
+2023-10-12 23:30:55.488 [info] > git rev-parse HEAD [124ms]
+2023-10-12 23:30:55.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:33:49.451 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-12 23:33:49.451 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:34:27.502 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-12 23:34:27.502 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 23:38:36.150 [info] Log level: Info
+2023-10-12 23:38:36.150 [info] Validating found git in: "git"
+2023-10-12 23:38:36.155 [info] Using git "2.42.0" from "git"
+2023-10-12 23:38:58.756 [info] Log level: Info
+2023-10-12 23:38:58.756 [info] Validating found git in: "git"
+2023-10-12 23:38:58.756 [info] Using git "2.42.0" from "git"
+2023-10-12 23:38:58.756 [info] > git rev-parse --show-toplevel [27ms]
+2023-10-12 23:38:58.756 [info] > git rev-parse --git-dir --git-common-dir [61ms]
+2023-10-12 23:38:58.756 [info] Open repository: /home/manoj/system/rashtriya-tv
+2023-10-12 23:38:58.756 [info] > git config --get commit.template [36ms]
+2023-10-12 23:38:58.756 [info] > git rev-parse --show-toplevel [20ms]
+2023-10-12 23:38:58.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [131ms]
+2023-10-12 23:38:58.756 [info] > git rev-parse --show-toplevel [53ms]
+2023-10-12 23:38:58.756 [info] > git status -z -uall [30ms]
+2023-10-12 23:38:58.756 [info] > git rev-parse --show-toplevel [198ms]
+2023-10-12 23:38:58.756 [info] > git config --get commit.template [775ms]
+2023-10-12 23:38:58.773 [info] > git rev-parse --show-toplevel [294ms]
+2023-10-12 23:38:59.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [303ms]
+2023-10-12 23:38:59.648 [info] > git status -z -uall [204ms]
+2023-10-12 23:39:02.808 [info] > git check-ignore -v -z --stdin [220ms]
+2023-10-12 23:39:32.149 [info] > git show --textconv :src/app/page.js [46ms]
+2023-10-12 23:39:32.179 [info] > git ls-files --stage -- /home/manoj/system/rashtriya-tv/src/app/page.js [31ms]
+2023-10-12 23:39:32.235 [info] > git cat-file -s 941d13766cc7b2ad302e8629bb81fd666181ce33 [29ms]
+2023-10-12 23:42:00.111 [info] > git config --get commit.template [68ms]
+2023-10-12 23:42:00.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2023-10-12 23:42:00.160 [info] > git status -z -uall [10ms]
+2023-10-12 23:45:01.381 [info] > git config --get commit.template [81ms]
+2023-10-12 23:45:01.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2023-10-12 23:45:01.501 [info] > git status -z -uall [29ms]

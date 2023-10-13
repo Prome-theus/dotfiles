@@ -1,0 +1,26 @@
+2023/10/13-18:51:22.097 3a3 Reusing MANIFEST /home/manoj/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/13-18:51:22.099 3a3 Recovering log #1130
+2023/10/13-18:51:22.155 3a3 Reusing old log /home/manoj/.config/discord/Local Storage/leveldb/001130.log 
+2023/10/13-18:52:38.368 505 Level-0 table #1134: started
+2023/10/13-18:52:38.446 505 Level-0 table #1134: 28473 bytes OK
+2023/10/13-18:52:38.483 505 Delete type=0 #1130
+2023/10/13-18:52:38.483 505 Compacting 4@0 + 2@1 files
+2023/10/13-18:52:38.613 505 Generated table #1135@0: 29 keys, 4004334 bytes
+2023/10/13-18:52:38.658 505 Generated table #1136@0: 102 keys, 242207 bytes
+2023/10/13-18:52:38.658 505 Compacted 4@0 + 2@1 files => 4246541 bytes
+2023/10/13-18:52:38.694 505 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/10/13-18:52:38.694 505 Delete type=2 #1129
+2023/10/13-18:52:38.694 505 Delete type=2 #1131
+2023/10/13-18:52:38.694 505 Delete type=2 #1127
+2023/10/13-18:52:38.694 505 Delete type=2 #1125
+2023/10/13-18:52:38.694 505 Delete type=2 #1134
+2023/10/13-18:52:38.694 505 Delete type=2 #1124
+2023/10/13-18:57:08.119 505 Level-0 table #1138: started
+2023/10/13-18:57:08.310 505 Level-0 table #1138: 2070797 bytes OK
+2023/10/13-18:57:08.357 505 Delete type=0 #1133
+2023/10/13-19:04:58.731 1647 Level-0 table #1140: started
+2023/10/13-19:04:58.785 1647 Level-0 table #1140: 40637 bytes OK
+2023/10/13-19:04:58.825 1647 Delete type=0 #1137
+2023/10/13-19:10:38.336 208a Level-0 table #1142: started
+2023/10/13-19:10:38.381 208a Level-0 table #1142: 23109 bytes OK
+2023/10/13-19:10:38.420 208a Delete type=0 #1139

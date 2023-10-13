@@ -1,0 +1,12 @@
+2023-10-10 22:28:17.290 [info] [perf] Render performance baseline is 231ms
+2023-10-10 22:28:35.582 [info] [perf] Render performance baseline is 266ms
+2023-10-10 22:33:32.647 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-10-10 22:33:34.307 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/manoj/Downloads/rashtriya-tv)
+2023-10-10 22:35:11.426 [error] Error: The editor could not be opened because the file was not found.
+    at M.fc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2327:22358)
+    at async M.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2327:21444)
+    at async n.R (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2325:22000)
+    at async n.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2325:20668)
+    at async n.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2325:19656)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2514:21238
+    at async u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2547:45561)

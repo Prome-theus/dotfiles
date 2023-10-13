@@ -1,0 +1,7 @@
+2023/10/08-12:56:31.039 557 Reusing MANIFEST /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.friv.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/08-12:56:31.040 557 Recovering log #3
+2023/10/08-12:56:31.060 557 Reusing old log /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.friv.com_0.indexeddb.leveldb/000003.log 
+2023/10/08-13:04:07.765 5f1 Level-0 table #5: started
+2023/10/08-13:04:07.824 5f1 Level-0 table #5: 26660 bytes OK
+2023/10/08-13:04:07.860 5f1 Delete type=0 #3
+2023/10/08-13:04:07.860 5f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

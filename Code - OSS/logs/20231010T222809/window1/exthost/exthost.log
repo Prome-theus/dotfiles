@@ -1,0 +1,50 @@
+2023-10-10 22:28:13.028 [info] Extension host with pid 83610 started
+2023-10-10 22:28:13.235 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-10 22:28:13.266 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-10 22:28:13.346 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-10 22:28:13.528 [info] Eager extensions activated
+2023-10-10 22:28:13.576 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:13.594 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:13.610 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:13.618 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:13.722 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:26.847 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-10 22:28:26.971 [info] Extension host with pid 83610 exiting with code 0
+2023-10-10 22:28:31.658 [info] Extension host with pid 83812 started
+2023-10-10 22:28:31.658 [info] Skipping acquiring lock for /home/manoj/.config/Code - OSS/User/workspaceStorage/0da0a384b98ee78f15ad0771de517223.
+2023-10-10 22:28:31.986 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-10-10 22:28:32.009 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-10 22:28:32.162 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-10 22:28:33.011 [info] Eager extensions activated
+2023-10-10 22:28:34.250 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:34.257 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:34.273 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:34.282 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:37.060 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-10-10 22:28:37.176 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:28:37.942 [error] Activating extension LeonardSSH.vscord failed due to an error:
+2023-10-10 22:28:37.942 [error] Error: Extension 'vscode.git' is not known or not activated
+    at S.getActivatedExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:3503)
+    at s.getExtensionExports (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8891)
+    at V.get exports [as exports] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:22547)
+    at new rs (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/data.ts:48:31)
+    at Object.<anonymous> (/home/manoj/.vscode-oss/extensions/leonardssh.vscord-5.1.18-universal/src/data.ts:332:26)
+    at Module.u._compile (/usr/lib/code/out/vs/loader.js:4:1271)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1324:10)
+    at Module.load (node:internal/modules/cjs/loader:1124:32)
+    at Module._load (node:internal/modules/cjs/loader:965:12)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13377)
+    at Function.u._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:5631)
+    at Function.c._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:29196)
+    at Function.t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:35261)
+    at Module.require (node:internal/modules/cjs/loader:1148:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+    at s.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:30375)
+    at async Promise.all (index 0)
+2023-10-10 22:28:38.745 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-10 22:28:47.735 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-10-10 22:28:47.835 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-10 22:30:23.175 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-10-10 22:35:59.462 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-10 22:35:59.739 [info] Extension host with pid 83812 exiting with code 0

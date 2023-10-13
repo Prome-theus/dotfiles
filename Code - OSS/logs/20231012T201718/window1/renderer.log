@@ -1,0 +1,10 @@
+2023-10-12 20:19:13.373 [info] [perf] Render performance baseline is -1ms
+2023-10-12 21:13:31.034 [info] [perf] Render performance baseline is 250ms
+2023-10-12 21:28:14.065 [info] [perf] Render performance baseline is 152ms
+2023-10-12 21:34:47.113 [info] [perf] Render performance baseline is 76ms
+2023-10-12 21:36:18.743 [info] [perf] Render performance baseline is 691ms
+2023-10-12 21:36:41.388 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/manoj/.config/discord/blob_storage/c0bd12d7-79dd-4bfb-a19c-2e2e0b58c5aa' failed: No such file or directory (EUNKNOWN) (path: /home/manoj/.config)
+2023-10-12 21:36:41.588 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/manoj/.config/discord/blob_storage/c0bd12d7-79dd-4bfb-a19c-2e2e0b58c5aa' failed: No such file or directory
+2023-10-12 23:30:56.631 [error] Failed to execute git
+2023-10-12 23:38:41.730 [info] [perf] Render performance baseline is 565ms
+2023-10-12 23:39:48.752 [info] [perf] Render performance baseline is 487ms

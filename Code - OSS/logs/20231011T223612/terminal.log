@@ -1,0 +1,2 @@
+2023-10-11 22:36:52.415 [warning] Couldn't attach to process Could not find pty on pty host []
+2023-10-11 22:36:52.416 [warning] Attach to process failed for terminal [{"id":1,"pid":106216,"title":"bash","titleSource":3,"cwd":"","icon":{"id":"terminal-bash"},"hasChildProcesses":false,"shellIntegrationNonce":"c7dd5aef-6a86-4103-85a9-abf1045798cd","findRevivedId":true}]

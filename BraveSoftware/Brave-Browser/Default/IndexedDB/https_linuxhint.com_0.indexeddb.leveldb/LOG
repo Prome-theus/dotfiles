@@ -1,0 +1,15 @@
+2023/10/10-00:18:54.410 3bc Reusing MANIFEST /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/10-00:18:54.410 3bc Recovering log #7
+2023/10/10-00:18:54.445 3bc Reusing old log /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/000007.log 
+2023/10/10-00:18:59.701 3bd Level-0 table #12: started
+2023/10/10-00:18:59.741 3bd Level-0 table #12: 8182 bytes OK
+2023/10/10-00:18:59.791 3bd Delete type=0 #7
+2023/10/10-00:18:59.792 3bd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/10-00:18:59.792 3bd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x02\x02\x01\x16\x00/\x00p\x00u\x00l\x00s\x00e\x00a\x00u\x00d\x00i\x00o\x00_\x00a\x00r\x00c\x00h\x00l\x00i\x00n\x00u\x00x\x00/' @ 439 : 0
+2023/10/10-00:18:59.792 3bd Compacting 1@1 + 1@2 files
+2023/10/10-00:18:59.831 3bd Generated table #13@1: 79 keys, 8804 bytes
+2023/10/10-00:18:59.831 3bd Compacted 1@1 + 1@2 files => 8804 bytes
+2023/10/10-00:18:59.876 3bd compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/10-00:18:59.878 3bd Delete type=2 #12
+2023/10/10-00:18:59.878 3bd Delete type=2 #9
+2023/10/10-00:18:59.879 3bd Manual compaction at level-1 from '\x00\x01\x02\x02\x01\x16\x00/\x00p\x00u\x00l\x00s\x00e\x00a\x00u\x00d\x00i\x00o\x00_\x00a\x00r\x00c\x00h\x00l\x00i\x00n\x00u\x00x\x00/' @ 439 : 0 .. (end); will stop at (end)

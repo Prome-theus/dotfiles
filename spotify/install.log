@@ -1,0 +1,12 @@
+[15:43:07 2023-10-01] FETCHING Version 2.24.2
+[15:43:07 2023-10-01] CREATING /home/manoj/.spicetify
+[15:43:07 2023-10-01] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.24.2/spicetify-2.24.2-linux-amd64.tar.gz
+[15:43:10 2023-10-01] EXTRACTING /home/manoj/.spicetify/spicetify.tar.gz
+[15:43:10 2023-10-01] SETTING EXECUTABLE PERMISSIONS TO /home/manoj/.spicetify/spicetify
+[15:43:10 2023-10-01] REMOVING /home/manoj/.spicetify/spicetify.tar.gz
+[15:43:10 2023-10-01] APPENDING /home/manoj/.spicetify to PATH in /home/manoj/.bashrc
+[15:43:10 2023-10-01] Restart your shell to have spicetify in your PATH.
+[15:43:10 2023-10-01] APPENDING /home/manoj/.spicetify to PATH in /home/manoj/.bash_profile
+[15:43:10 2023-10-01] Restart your shell to have spicetify in your PATH.
+[15:43:10 2023-10-01] spicetify v2.24.2 was installed successfully to /home/manoj/.spicetify
+[15:43:10 2023-10-01] Run 'spicetify --help' to get started

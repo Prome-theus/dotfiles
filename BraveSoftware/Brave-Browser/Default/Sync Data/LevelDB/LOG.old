@@ -1,0 +1,18 @@
+2023/10/13-19:00:10.595 1352 Reusing MANIFEST /home/manoj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/13-19:00:10.596 1352 Recovering log #659
+2023/10/13-19:00:10.900 1352 Reusing old log /home/manoj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000659.log 
+2023/10/13-19:05:56.592 1315 Level-0 table #663: started
+2023/10/13-19:05:56.708 1315 Level-0 table #663: 65520 bytes OK
+2023/10/13-19:05:56.827 1315 Delete type=0 #659
+2023/10/13-19:05:56.854 1327 Compacting 4@0 + 1@1 files
+2023/10/13-19:05:57.010 1327 Generated table #664@0: 192 keys, 16900 bytes
+2023/10/13-19:05:57.010 1327 Compacted 4@0 + 1@1 files => 16900 bytes
+2023/10/13-19:05:57.146 1327 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/13-19:05:57.147 1327 Delete type=2 #656
+2023/10/13-19:05:57.147 1327 Delete type=2 #663
+2023/10/13-19:05:57.147 1327 Delete type=2 #654
+2023/10/13-19:05:57.147 1327 Delete type=2 #660
+2023/10/13-19:05:57.147 1327 Delete type=2 #658
+2023/10/13-19:48:07.803 1326 Level-0 table #666: started
+2023/10/13-19:48:07.947 1326 Level-0 table #666: 70542 bytes OK
+2023/10/13-19:48:08.048 1326 Delete type=0 #662

@@ -1,0 +1,15 @@
+2023/10/07-17:37:50.188 4a0 Reusing MANIFEST /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/07-17:37:50.189 4a0 Recovering log #4
+2023/10/07-17:37:50.189 4a0 Reusing old log /home/manoj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/000004.log 
+2023/10/07-17:39:02.366 4a0 Level-0 table #8: started
+2023/10/07-17:39:02.399 4a0 Level-0 table #8: 2332 bytes OK
+2023/10/07-17:39:02.442 4a0 Delete type=0 #4
+2023/10/07-17:39:02.442 4a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/07-17:39:02.442 4a0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x00\x00\xc8\x05\x00u\x00s\x00e\x00r\x00s' @ 102 : 1
+2023/10/07-17:39:02.442 4a0 Compacting 1@1 + 1@2 files
+2023/10/07-17:39:02.478 4a0 Generated table #9@1: 77 keys, 1147 bytes
+2023/10/07-17:39:02.478 4a0 Compacted 1@1 + 1@2 files => 1147 bytes
+2023/10/07-17:39:02.564 4a0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/07-17:39:02.564 4a0 Delete type=2 #5
+2023/10/07-17:39:02.564 4a0 Delete type=2 #8
+2023/10/07-17:39:02.564 434 Manual compaction at level-1 from '\x00\x02\x00\x00\xc8\x05\x00u\x00s\x00e\x00r\x00s' @ 102 : 1 .. (end); will stop at (end)

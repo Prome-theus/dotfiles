@@ -1,0 +1,26 @@
+2023-10-10 22:28:13.558 [info] Log level: Info
+2023-10-10 22:28:13.558 [info] Validating found git in: "git"
+2023-10-10 22:28:13.558 [info] Using git "2.42.0" from "git"
+2023-10-10 22:28:38.065 [info] Log level: Info
+2023-10-10 22:28:38.065 [info] Validating found git in: "git"
+2023-10-10 22:28:38.065 [info] Using git "2.42.0" from "git"
+2023-10-10 22:28:38.079 [info] > git rev-parse --show-toplevel [11ms]
+2023-10-10 22:28:38.143 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2023-10-10 22:28:38.220 [info] Open repository: /home/manoj/Downloads/rashtriya-tv
+2023-10-10 22:28:38.384 [info] > git rev-parse --show-toplevel [60ms]
+2023-10-10 22:28:38.387 [info] > git config --get commit.template [84ms]
+2023-10-10 22:28:38.466 [info] > git rev-parse --show-toplevel [36ms]
+2023-10-10 22:28:38.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2023-10-10 22:28:38.517 [info] > git rev-parse --show-toplevel [33ms]
+2023-10-10 22:28:38.528 [info] > git status -z -uall [15ms]
+2023-10-10 22:28:38.700 [info] > git config --get commit.template [43ms]
+2023-10-10 22:28:38.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-10-10 22:28:38.736 [info] > git status -z -uall [2ms]
+2023-10-10 22:28:38.948 [info] > git check-ignore -v -z --stdin [14ms]
+2023-10-10 22:28:48.896 [info] > git show --textconv :src/components/Footer.js [50ms]
+2023-10-10 22:28:48.897 [info] > git ls-files --stage -- /home/manoj/Downloads/rashtriya-tv/src/components/Footer.js [10ms]
+2023-10-10 22:28:48.979 [info] > git cat-file -s 7740fd15fc4d426ed8aa20bdc0d852705ef7e5b1 [22ms]
+2023-10-10 22:33:37.998 [warning] ENOENT: no such file or directory, open '/home/manoj/Downloads/rashtriya-tv/.git/HEAD'
+2023-10-10 22:33:38.172 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/manoj/Downloads/rashtriya-tv/.git/config'
+2023-10-10 22:33:38.415 [warning] ENOENT: no such file or directory, open '/home/manoj/Downloads/rashtriya-tv/.git/HEAD'
+2023-10-10 22:33:38.505 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/manoj/Downloads/rashtriya-tv/.git/config'
